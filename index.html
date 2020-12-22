@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task list</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="add-task">
+            <h3>Добавить задачу:</h3>
+            <input type="text" id="task" name="task" placeholder="Задача">
+            <input type="button" value="Добавить" id="add">
+            <input type="button" value="Очистить" id="clear">
+        </section>
+        <section class="task-list" id="taskList">
+            <h3>Лист Заданий:</h3>
+            <input type="button" value="✓" id="allMark" class="all">
+            <input type="button" value="X" id="allClear" class="all">
+        </section>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

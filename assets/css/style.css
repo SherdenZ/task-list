@@ -1,0 +1,48 @@
+section {
+    margin: 1%;
+    border: 2px solid black;
+    width: 35%;
+    padding: 1%;
+}
+
+.all {
+    position: relative;
+    top: -5em;
+    left: 46.6em;
+    height: 2em;
+    width: 2em;
+}
+
+.task {
+    border: 2px dotted black;
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 1%;
+    padding-bottom: 0.15em;
+}
+
+#complete {
+    flex-grow: 1;
+    align-self: center;
+}
+
+.task-description {
+    flex-grow: 90;
+    width: 95%;
+    padding-left: 1%;
+}
+
+.delete {
+    flex-grow: 1;
+    justify-content: flex-start;
+    height: 3%;
+}
+.inWork {
+    background-color: lightseagreen;
+}
+
+.completed {
+    background-color: gray;
+}
+
+
